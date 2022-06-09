@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Arcana Zero</title>
+		<link rel="stylesheet" href="/reset.css">
+		<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+		{% include "header" %}
+		<div>
+		{% block content %}
+		{% endblock content %}
+		</div>
+
+		{% include "footer" %}
+	</body>
+</html>

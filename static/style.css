@@ -1,0 +1,57 @@
+:root {
+	--bg-dark: #14110F;
+	--bg-light: #342A21;
+	--fg-light: #A4B0F5;
+	--callout: #71816D;
+	--callout-dark: #444D42;
+	--links: #4464AD;
+}
+
+body {
+	background-color: var(--bg-light);
+}
+
+header {
+	background-color: var(--bg-dark);
+	color: white;
+}
+
+footer {
+	background-color: var(--bg-dark);
+	color: gray;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: var(--callout);
+	color: black;
+}
+
+.active {
+	background-color: var(--callout-dark);
+}

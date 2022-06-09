@@ -1,0 +1,5 @@
+{% extends "base" %}
+
+{% block content %}
+GAMES UNDER CONSTRUCTION
+{% endblock content %}

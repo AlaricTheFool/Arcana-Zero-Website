@@ -5,10 +5,13 @@
 		<title>{% if title == ""  %}Arcana Zero{% else %}{{ title }} | Arcana Zero{% endif %}</title>
 		<link rel="stylesheet" href="/reset.css">
 		<link rel="stylesheet" href="/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet"> 
 	</head>
 	<body>
 		{% include "header" %}
-		<div>
+		<div id="stars">
 		{% block content %}
 		{% endblock content %}
 		</div>

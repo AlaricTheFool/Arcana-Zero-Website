@@ -1,5 +1,40 @@
 {% extends "base" %}
 
 {% block content %}
-GAMES UNDER CONSTRUCTION
+
+<div class="inner-block">
+
+<h1>Twelve Knight's Vigil</h1>
+
+<p>
+Twelve Knight's Vigil is a tower defense in which 12 strangers are brought together by their possession of mysterious <em>ORBS</em> that grant them strange and great powers. Together, they'll have to discover the meaning of friendship and push back the <em>WAVES</em>, the strange beings from beyond that threaten their way of life.
+</p>
+
+<br>
+
+<p>
+Twelve Knight's vigil is designed to be a Tower Defense game where each of your towers has a unique and memorable character to it. Each Knight has the ability to man one of three different types of towers, and each will have different effects tied into the theme of that knight. In addition, each knight has their own minigame, and clicking on their tower will allow you to play that minigame to give their tower a temporary buff.
+</p>
+
+<br>
+<hr>
+
+<h2>The Cast</h2>
+
+<h3>Our Silent Hero</h3>
+
+<p>It's you! You awaken, dazed and confused in a new world as... a goblin? Through a chance encounter, you end up befriending the knights and becoming their tactician. It's up to you to lead them to victory, and hopefully along the way you can find out how you ended up here.</p>
+
+<br>
+
+<h3>Norm: The Average Knight</h3>
+
+<p>There isn't a lot to write home about for Norm. He's generally a pretty plain fellow. He stands 5'9" tall, his favorite food is white bread, and back home his two best friends are a skinny guy and a fat guy. It would be extraordinary just how plain Norm is if not for the fact that there's nothing extraordinary about him.</p>
+
+<br>
+
+<h3>More to come...</h3>
+
+</div>
+
 {% endblock content %}

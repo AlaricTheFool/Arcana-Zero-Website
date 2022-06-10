@@ -1,5 +1,19 @@
 {% extends "base" %}
 
 {% block content %}
-UNDER CONSTRUCTION
+
+<div class="inner-block">
+
+<p>Hi. This is Alaric, supreme king of these lands. I'm a game developer. Though currently I have nothing beyond game jam projects and tech demos to show off, some day I hope you can come here and enjoy great games and other gaming related content. But for now, all we have is this lousy static website.</p>
+
+<br>
+
+<p>We are currently working on the game 12 Knight's Vigil, a tower defense where you can build exactly one tower of each of 12 types and each tower has its own associated minigame. You can check that out on the <a href="#">games page.</a></p>
+
+<hr>
+
+<p>If you'd like to talk to me or any of my friends that I bullied into helping me, you can come <a href="#">visit us on discord.</a></p>
+
+</div>
+
 {% endblock content %}

@@ -7,8 +7,20 @@
 	--links: #4464AD;
 }
 
+* {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
 body {
 	background-color: var(--bg-light);
+}
+
+html body div {
+	height: 100vh;
+}
+
+html {
+	overflow: hidden;
 }
 
 header {
@@ -28,6 +40,10 @@ footer {
 
 ul {
 	overflow: hidden;
+}
+
+a {
+	color: var(--callout);
 }
 
 li {
@@ -54,4 +70,23 @@ li a:hover:not(.active) {
 
 .active {
 	background-color: var(--callout-dark);
+}
+
+#stars {
+	background-image: url("stars.jpg");
+	background-size: cover;
+	color: white;
+	font-size: 18px;
+}
+
+.inner-block {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: var(--bg-light);
+	position: relative;
+	top: 10%;
+	height: auto;
+	padding: 16px 32px;
+	text-align: center;
 }

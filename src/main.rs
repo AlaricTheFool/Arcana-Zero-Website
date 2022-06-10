@@ -21,10 +21,10 @@ impl NavLink {
                 display: "Games".to_string(),
                 path: "/games".to_string(),
             },
-            Self {
+            /*            Self {
                 display: "Blog".to_string(),
                 path: "/blog".to_string(),
-            },
+            },*/
         ]
     }
 }
